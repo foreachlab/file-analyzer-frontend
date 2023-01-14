@@ -1,8 +1,132 @@
-* {
-    margin: 0;
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
+}
+h1,h2,h3,h4,h5,h6,p,i,li{
+ color: #252B42;
+}
+ .main-wrapper{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+.info-col h1{
+    margin-bottom: 15px;
+
+}
+.info-button{
+    border-radius: 35px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 15px;
+    font-weight: 500;
 }
 
+.info-button-primary{
+    background-color: #23A6F0;
+    border-color: white;
+}
 
-.tansu{
-    color: blue;
+.info-button-primary:hover{
+    background-color: #0f93df;
+    border-color: white;
+}
+
+.info-button-solid{
+    color: black;
+    border-color: black;
+    background-color: white;
+
+}
+.info-button-solid:hover{
+    background-color: #717171;
+    border-color:white;
+}
+
+.card-item{
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+.card-content{
+    padding: 0px;
+    border-radius: 1px;
+}
+.card-content input{
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: #F9F9F9;
+    font-size: 15px;
+}
+.card-content input::placeholder{
+    color: #737373;
+    font-size: 15px;
+}
+.card-content input:focus{
+    box-shadow: none;
+    border-color:#bbbec2;
+}
+.search-button{
+    margin-top: 5px;
+    background-color: #23A6F0;
+    border-color: white;
+    border-radius: 5px;
+    padding: 15px 40px;
+    width: 100%;
+    text-align: center;
+}
+.search-button:hover{
+    background-color: #0f93df;
+    border-color: white;
+}
+
+.form-item label{
+    font-weight: bolder;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 800;
+}
+h4{
+    color: #737373;
+    font-size: 20px;
+}
+.info-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.info-format{
+    margin-top: 2px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #737373;
+}
+.form-control-name{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.form-control-file{
+    margin-top: 15px;
+}
+
+.container{
+    max-width: 1024px;
+}
+
+@media (max-width: 1150px){
+    .container{
+        max-width: 850px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
