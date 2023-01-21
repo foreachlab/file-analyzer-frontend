@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6,p,i,li{
 }
  .main-wrapper{
     display: flex;
-    min-height: 100vh;
+    min-height: 80vh;
     align-items: center;
 }
 .info-col h1{
@@ -130,3 +130,29 @@ h4{
         margin-right: 20px;
     }
 }
+
+.navigationbar{
+
+padding-top: 36px;
+
+}
+.top-heading{
+
+font-size: 25px;
+height: 32px;
+color: #252B42;
+font-weight: 700;
+
+}
+.topleft-headings{
+    color: #737373 !important;
+    font-size: 15px;
+    padding-right: 15px !important;
+}
+.search-icon{
+margin-top: 11px;
+padding-left: 20px;
+
+
+}
+
