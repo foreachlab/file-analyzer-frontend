@@ -1,3 +1,8 @@
 # File analyzer frontend
 
-prod: https://foreachlab.github.io/file-analyzer-frontend/
+
+
+
+
+
+format html shif alt f
